@@ -1,0 +1,51 @@
+/*! basic.css v2020-09-14-01 | MIT License | Copyright (c) 2020 Thiruvikraman Govindarajan | github.com/gtvcreations/basic.css */
+
+/* No User Select */
+
+.no-user-select {
+    /* iOS Safari */
+    -webkit-touch-callout: none !important;
+    /* Chrome/Safari/Opera */
+    -webkit-user-select: none !important;
+    /* Konqueror */
+    -khtml-user-select: none !important;
+    /* Firefox */
+    -moz-user-select: none !important;
+    /* Internet Explorer/Edge */
+    -ms-user-select: none !important;
+    /* Non-prefixed version, currently not supported by any browser */
+    user-select: none !important;
+}
+
+/* No Tap Highlight */
+
+/* Essentially means a[href], or that the link actually goes somewhere */
+
+.no-tap-highlight {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
+}
+
+.no-tap-highlight:link {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
+}
+
+.no-tap-highlight:visited {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
+}
+
+.no-tap-highlight:hover {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
+}
+
+.no-tap-highlight:active {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
+}
+
+/* No Outline */
+
+.no-outline:focus {
+    /* Hide Outline for Custom Styles on Focus & Tab Navigation */
+    outline-width: 0 !important;
+    outline-style: none !important;
+    outline-color: transparent !important;
+}
