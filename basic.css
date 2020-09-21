@@ -49,3 +49,101 @@
     outline-style: none !important;
     outline-color: transparent !important;
 }
+
+/* Web Safe Fonts */
+
+/* Serif */
+
+.serif {
+    font-family: serif !important;
+}
+
+/* Georgia */
+
+.georgia {
+    font-family: Georgia, serif !important;
+}
+
+/* Palatino */
+
+.palatino {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif !important;
+}
+
+/* Times */
+
+.times {
+    font-family: "Times New Roman", Times, serif !important;
+}
+
+/* Sansserif */
+
+.sansserif {
+    font-family: sans-serif !important;
+}
+
+/* Arial */
+
+.arial {
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+/* Arial Black */
+
+.arialblack {
+    font-family: "Arial Black", Gadget, sans-serif !important;
+}
+
+/* Comicsans */
+
+.comicsans {
+    font-family: "Comic Sans MS", cursive, sans-serif !important;
+}
+
+/* Impact */
+
+.impact {
+    font-family: Impact, Charcoal, sans-serif !important;
+}
+
+/* Lucidasans */
+
+.lucidasans {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif !important;
+}
+
+/* Tahoma */
+
+.tahoma {
+    font-family: Tahoma, Geneva, sans-serif !important;
+}
+
+/* Trebuchet */
+
+.trebuchet {
+    font-family: "Trebuchet MS", Helvetica, sans-serif !important;
+}
+
+/* Verdana */
+
+.verdana {
+    font-family: Verdana, Geneva, sans-serif !important;
+}
+
+/* Monospace */
+
+.monospace {
+    font-family: monospace !important;
+}
+
+/* Courier */
+
+.courier {
+    font-family: "Courier New", Courier, monospace !important;
+}
+
+/* Lucida */
+
+.lucida {
+    font-family: "Lucida Console", Monaco, monospace !important;
+}
