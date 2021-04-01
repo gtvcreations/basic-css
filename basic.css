@@ -1,4 +1,4 @@
-/*! basic.css v2020-09-14-01 | MIT License | Copyright (c) 2020 Thiruvikraman Govindarajan | github.com/gtvcreations/basic.css */
+/*! basic.css v2021-04-01-01 | MIT License | Copyright (c) 2020 Thiruvikraman Govindarajan | github.com/gtvcreations/basic.css */
 
 /* No User Select */
 
@@ -201,4 +201,36 @@
 .text-soft-shadow {
     color: rgba(0, 0, 0, 0.6);
     text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2), 0px -5px 35px rgba(255, 255, 255, 0.3);
+}
+
+/* Background */
+
+.bg-black-50 {
+    background-color: rgba(0, 0, 0, 0.1)
+}
+
+.bg-white-50 {
+    background-color: rgba(255, 255, 255, 0.1)
+}
+
+/* Display */
+
+.hide {
+    display: none !important;
+}
+
+.block {
+    display: block !important;
+}
+
+.inline-block {
+    display: inline-block !important;
+}
+
+.inline {
+    display: inline !important;
+}
+
+.flex {
+    display: flex !important;
 }
